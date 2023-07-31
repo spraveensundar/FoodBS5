@@ -1,0 +1,218 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+
+header{
+	
+	position:fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+	left: 0;
+	padding:20px 30px;	
+	transition: 0.5s
+}
+
+
+
+
+
+header.sticky{
+	
+	background-color:#fff;
+	padding:5px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+   
+}
+
+.logo{
+	
+	font-size: 2em;
+	font-weight: bold;
+	color:#111;
+	
+}
+
+
+
+ 
+header.sticky .logo{
+	
+	color:#111111;
+	box-shadow: 
+}
+	
+.offcanvas{
+	
+	width:350px;
+}
+
+ul li{
+	
+	list-style: none;
+	margin-left:30px;
+}
+
+ul li a{
+	
+	color:#111 !important;
+}
+
+
+ul li a:hover{
+	color: #ff0147 !important;
+}
+
+
+
+header.sticky ul li a{
+	
+	color: #111 !important;
+	font-weight: 400;
+}
+
+
+
+header.sticky ul li a:hover{
+	
+	color:#ff0157 !important
+		
+}
+
+header.sticky i{
+	
+	color: #111 !important
+}
+
+
+/*----------------------------Home--------------------*/
+section{
+	
+	width: 100%;
+	min-height: 100vh;
+	padding-top:100px;
+}
+
+
+#home{
+	
+	background-image:url(imsges/yrll.jpg);
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#home .home-content{
+	
+	text-align: center;
+	color: #111;
+	
+}
+
+#home .home-content h1{
+
+	font-size: 5em;
+	font-weight: bold;
+	text-transform: uppercase;
+           	
+}
+
+#home .home-content p{
+	
+	font-size: 1em;
+
+
+}
+
+
+#home .home-content .btn{
+	
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	transition: 0.5s;
+}
+
+
+
+/*--------------About-------*/
+
+
+
+
+/*--------------Menu-------*/
+
+#menu .card{
+	
+	padding:20px;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+	border: none;
+	
+}
+
+/*-----------Testimonials---------------*/
+#testimonials{
+	
+	 
+	 background-image: url(imsges/Testers.jpg);
+	 background-size: cover;
+	 background-position: center;
+	 background-repeat: no-repeat;
+	
+	
+}
+
+
+#testimonials .card{
+	
+	box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+#textimonials .card img{
+	
+	display: flex;
+	justify-content: center;
+}
+
+.row .card{
+	
+	padding: 30px;
+}
+
+/*-------------Contact---------------*/
+#contact{
+	
+	
+	
+	background-image: url(imsges/bg3.jpg);
+	background-position:center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#contact {
+	
+	
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+/*--------------------------------------------small screen---------------------------------------*/
+
+@media only screen and (max-width:600px){
+	
+	#home .home-content h1{
+		
+		font-size:2em;
+	}
+	
+	
+}
+
+
+
+
+
